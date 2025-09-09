@@ -6,7 +6,7 @@ source solids4FoamScripts.sh
 
 # Define configurations as space-separated strings
 configs=(
-    "BASE=base/hex.snes NAME=hex.lu PETSC_FILE=petscOptions.lu"
+    "BASE=base/hex.snes NAME=hex.lu PETSC_FILE=petscOptions.split"
 )
 # "BASE=base/hex.segregated NAME=hex.seg"
 # SNES segregated approach
@@ -14,7 +14,7 @@ configs=(
 
 # Define start and end mesh indices
 # Mesh input files are defined from 1 to 8
-START_MESH=5
+START_MESH=1
 END_MESH=8
 
 

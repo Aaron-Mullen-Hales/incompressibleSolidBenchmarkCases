@@ -27,8 +27,8 @@ solidModel     linearGeometryTotalDisplacement;
     //solutionAlgorithm explicit;
 
     // PETSc options file used by PETScSNES
-    optionsFile petscOptions.lu;
-    //optionsFile petscOptions.split;
+    //optionsFile petscOptions.lu;
+    optionsFile petscOptions.split;
     //optionsFile petscOptions.hypre;
     //optionsFile petscOptions.ilu;
     //optionsFile petscOptions.seg.hypre;
