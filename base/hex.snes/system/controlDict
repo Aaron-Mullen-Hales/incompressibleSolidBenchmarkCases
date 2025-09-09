@@ -51,14 +51,8 @@ functions
    pointDisp
    {
        type    solidPointDisplacement;
-       point   (0.048 0.060 0);
+       point   (48 60 0);
    }
-   
-   // pointDisp
-   // {
-   //     type    solidPointDisplacement;
-   //     point   (0.048 0.060 0);
-   //}
 }
 
 // ************************************************************************* //
